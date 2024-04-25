@@ -1,0 +1,5 @@
+[user]
+  name = Mitt Navn
+  email = min.epost@example.com
+[init]
+	defaultbranch = main
