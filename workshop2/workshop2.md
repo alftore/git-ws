@@ -1,6 +1,6 @@
 # Github Workshop
 
-- Github: Lag et nytt repository under din private github bruker. Huk av for readme fil, repoet kan godt være private om du ønsker.
+- Github: Lag et nytt repository under din private github bruker. Huk av for readme fil, repoet bør være public.
 - Lokalt: Klone repo lokalt under pathen c:\git-workshop
 - Lokalt: Lage en enkel commit på main branch og forsøk git push for å se at alt virker
 - Github: Gå til settings og endre på [pull request settings](#general-settings---pull-requests).

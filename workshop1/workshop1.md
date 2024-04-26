@@ -83,7 +83,7 @@ echo "some text" >> conflict.txt
 git add conflict.txt
 git commit -m "commit from branch a"
 
-git switch -c b
+git switch -c b main
 echo "more text" >> conflict.txt
 git add conflict.txt
 git commit -m "commit from branch b"
@@ -158,7 +158,7 @@ Forsøk å sette opp signed commits.
 git commit -m "<message>" -S
 ```
 
-Forsøk å sette opp en commit-hook
+Forsøk å sette opp en commit-hook. Se `c:\git-workshop\test\.git\hooks`
 
 ```shell
 #!/bin/bash
@@ -193,4 +193,3 @@ done
 
 exec <&-
 ```
-
